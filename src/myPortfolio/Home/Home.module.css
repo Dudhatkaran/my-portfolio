@@ -1,0 +1,32 @@
+.home {
+    width: 100%;
+
+}
+
+.photo {
+    width: 100%;
+    position: relative;
+}
+
+.photo img {
+    width: 60%;
+    height: 100vh;
+}
+
+.name {
+    position: absolute;
+    z-index: 1;
+    margin-top: -440px;
+    margin-left: 50px;
+    color: white;
+}
+
+.name h1 {
+    font-size: 50px;
+}
+
+.name p {
+    font-size: 19px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
