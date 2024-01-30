@@ -24,7 +24,7 @@ const About = () => {
                     </div>
                     <div className={ style.data }>
                         <p> <b> im a Full stack Developer austin based who loves clean, <br /> simple  & unique design. i also enjoy crafting brand <br /> identities,  icons, & ilustration work.</b></p>
-                        <h5>To an English person, it will seem like simplified English, as a skeptical <br /> Cambridge friend of mine told me what Occidental is. The European <br /> languages are members of the same family.English person.</h5>
+                        <h5>To an English person, it will seem like simplified English, as a skeptical <br /> Cambridge friend of mine told me what Occidental is. The European <br /> languages are members of the same family. English person.</h5>
                     </div>
                 </div>
                 <div className={ style.program1 }>
@@ -62,7 +62,6 @@ const About = () => {
                     </div>
                 </div>
             </section>
-
         </>
     )
 }

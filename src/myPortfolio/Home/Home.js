@@ -2,8 +2,13 @@ import React from 'react'
 import style from './Home.module.css'
 import photo from '../image/my photo.jpg'
 import Nevbar from '../Nevbar/Nevbar'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Home = () => {
+    React.useEffect(() => {
+        AOS.init();
+    }, [])
     return (
         <>
             <Nevbar />
@@ -22,6 +27,10 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+            <p>sdgvhg</p>
+            <div data-aos="zoom-out"><h1>hello</h1></div>
+            <div animation="fade-right"><h1>hello</h1></div>
+
         </>
     )
 }
